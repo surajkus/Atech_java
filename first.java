@@ -4,23 +4,18 @@ class first {
         char c ='A';
         int num =c;
         System.out.print(num);
-    }
+
+                byte  z = 123;
+                int numb =z;
+                System.out.print(numb);
+
+
+
+
+                int i  = 32;
+                float A = i;
+                System.out.println(A);
+
 
 }
-class hello{
-    public static void main(String args[])
-    {
-        byte  z = 123;
-        int num =z;
-        System.out.print(num);
-    }
-
-}
-class second{
-    public static void main (String args[])
-    {
-        int i  = 32;
-        float A = i;
-        System.out.println(A);
-    }
 }
