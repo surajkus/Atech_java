@@ -6,32 +6,51 @@ class first {
         System.out.print(num);
 
                 byte  z = 123;
-                int numb =z;
-                System.out.print(numb);
-
-
-
+                int d =z;
+                System.out.print(d);
 
                 int i  = 32;
                 float A = i;
                 System.out.println(A);
 
-               int a = 10;
-               System.out.println(a);
+             // Arithmetic operator
+         int x = 100;
+         int y = 20;
+         System.out.println(x + y);
+         System.out.println(x - y);
+         System.out.println(x * y);
+         System.out.println(x / y);
+         System.out.println(x % y);
+         System.out.println(++x); // x++increment
+         System.out.println(--x);  //--x increment
 
-                int num1 = 10;
-                num1 += 5;
-                 System.out.println(num);
+  // Assigment operator
+          int numb= 5;
+        System.out.println(numb = 5);
+        System.out.println (numb += 3);
+        System.out.println (numb-= 3);
+        System.out.println (numb *= 3);
+        System.out.println (numb /= 3);
+        System.out.println (numb %= 3);
+        System.out.println (numb &= 3);
+        System.out.println (numb<<= 3);
+        System.out.println ( numb>>= 3);
+
+        // comparison operator
+        int a=5;
+        int b=6;
+        System.out.println(a==b);
+        System.out.println(a!=b);
+        System.out.println(a>b);
+        System.out.println(a>=b);
+        System.out.println(a<=b);
 
 
-                 int num3 = 5;
-                int num4 = 3;
-                System.out.println(num3 >num4);
-
-                int w = 5;
-                System.out.println(w > 3 && w < 10);
-
-
+        //logical operators
+        int num3 = 5;
+        System.out.println(num3 > 3 && num3 < 10);
+        System.out.println(num3 > 3 || num3 < 4);
+        System.out.println(!(num3 > 3 && num3 < 10));
 
     }
 }
