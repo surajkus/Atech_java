@@ -1,5 +1,5 @@
 import java.util.Scanner;
-
+// table print using for loops in java programming
 public class loop {
     public static void main(String[] argus)
     {
