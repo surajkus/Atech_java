@@ -1,6 +1,6 @@
 import java.util.Random;
 import java.util.Scanner;
-
+// Number guessing game in java
 public class NumguessingG {
 
     public static void main(String[] argus)
