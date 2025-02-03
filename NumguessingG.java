@@ -1,4 +1,3 @@
-import java.net.SocketOption;
 import java.util.Random;
 import java.util.Scanner;
 // Number guessing game in java

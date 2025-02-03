@@ -10,6 +10,21 @@ public class loop {
         {
             System.out.println(a +"x" +i +"=" +i*a);
         }
-//        System.out.println(a);
+
+
+        int countdown = 3;
+
+        while (countdown > 0) {
+            System.out.println(countdown);
+            countdown--;
+        }
+
+        System.out.print("Happy New Year!!\n");
+
+
+
     }
+
+
+
 }
