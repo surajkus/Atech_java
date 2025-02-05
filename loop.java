@@ -19,7 +19,7 @@ public class loop {
             countdown--;
         }
 
-        System.out.print("Happy New Year!!\n");
+        System.out.print("Happy New Year!!");
 
 
 
