@@ -43,13 +43,13 @@ public class partice {
        String s = k.next();
        switch(s)
        {
-           case "yes","Yes","YES":
+           case "yes","y","YES":
                System.out.println("your previous day is "+day(w-1));
                System.out.println("your next days is "+day(w+1));
 
            break;
 
-           case "No","no":
+           case "No","n":
            System.out.println("thanks you!! have a nice day ");
            break;
        }
