@@ -4,7 +4,7 @@ public class Operator {
 
     public static void main(String[] agrs)
     {
-    // Arithmetic operator
+    // Arithmetic operators
     int x = 100;
     int y = 20;
          System.out.println(x + y);
@@ -16,7 +16,7 @@ public class Operator {
          System.out.println(--x);  //--x increment
 
     // Assigment operator
-    int numb= 5;
+    int numb= 10;
         System.out.println(numb = 5);
         System.out.println (numb += 3);
         System.out.println (numb-= 3);
