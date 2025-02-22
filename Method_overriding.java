@@ -1,10 +1,10 @@
 public class Method_overriding {
     public static void main(String[] argus)
     {
-      fruits f = new fruits();
+
+        fruits f = new fruits();
         f.color();
-        vegitables v = new vegitables();
-         v.color();
+
 
 
     }
@@ -20,6 +20,7 @@ class vegitables {
  class  fruits extends vegitables{
   @Override
     void color(){
+     super.color();
         System.out.println("yellow");
     }
 
