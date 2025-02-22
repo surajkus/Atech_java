@@ -7,7 +7,7 @@ public class Constructor_overloading {
 class X{
     int i;
     X(){
-              this(5);
+        this(5);
     }
     X(int i) {
 
