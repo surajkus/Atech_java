@@ -1,18 +1,19 @@
-class first {
-    public static void main(String[] arg) {
+public class first {
+    public static void main(String args[]) {
+        college a = new college();
+        univ b = new univ();
+        b.move();
+        a.move();
 
-       //casting
-        char c = 'A';
-        int num = c;
-        System.out.print(num);
-
-        byte z = 123;
-        int d = z;
-        System.out.print(d);
-
-        int i = 32;
-        float A = i;
-        System.out.println(A);
-
+    }
+}
+class college {
+    public void move() {
+        System.out.println("College is open");
+    }
+}
+class univ extends college {
+    public void move() {
+        System.out.println("University is open too");
     }
 }
