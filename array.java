@@ -6,6 +6,7 @@ public static void main(String args[]){
 //    //declare the variables;
 //    int[] arr ={2,34,21,15,67,87,34,56,78,32};
 //    System.out.println(Arrays.toString(arr));
+    // (when you are direct write arr name inside the sout then print address of array not a arrays)
 //
 //
 //    // method of arrays in java;
