@@ -52,7 +52,7 @@ public static void main(String args[]){
 
     // addition of arrays.
    int[] arr5={1,2,3,4,1,8,9,10};
-   int  sum= 0;
+   int   sum= 1;
    for(int i=0 ; i<arr5.length;i++)
    {
        sum = sum + arr5[i];
@@ -60,9 +60,9 @@ public static void main(String args[]){
     System.out.println("sum of all numbers in arrays "+sum);
 for( int i: arr5)
 {
-    sum =sum + i;
+    sum =sum * i;
 }
-    System.out.println("sum of all numbers in arrays " +sum);
+    System.out.println("mutilple of all numbers in arrays " +sum);
 }
 
 }
