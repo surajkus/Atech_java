@@ -48,5 +48,21 @@ public static void main(String args[]){
     System.out.println(Arrays.toString(name));
     List<String> friend_name= Arrays.asList(name);
     System.out.println(friend_name);
+
+
+    // addition of arrays.
+   int[] arr5={1,2,3,4,1,8,9,10};
+   int  sum= 0;
+   for(int i=0 ; i<arr5.length;i++)
+   {
+       sum = sum + arr5[i];
+   }
+    System.out.println("sum of all numbers in arrays "+sum);
+for( int i: arr5)
+{
+    sum =sum + i;
 }
+    System.out.println("sum of all numbers in arrays " +sum);
+}
+
 }
