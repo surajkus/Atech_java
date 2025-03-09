@@ -52,9 +52,9 @@ public class array {
 
         // addition of arrays.
         int[] arr5 = {1, 2, 3, 4, 1, 8, 9, 10};
-        int sum = 1;
+        int sum = 0;
         for (int i = 0; i < arr5.length; i++) {
-            sum = sum * arr5[i];
+            sum = sum + arr5[i];
         }
         System.out.println("multiply of all numbers in arrays " + sum);
     }
