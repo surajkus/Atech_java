@@ -16,5 +16,5 @@ public class InheritanceSingle {
 }
 
 class honda extends cars{
-
+  
 }
