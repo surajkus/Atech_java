@@ -12,6 +12,7 @@ public class getandset {
         list.add(0,"pineapple");
         list.remove(2);
         list.add(1,"gavabha");//pgb
+        
         System.out.println(list);
     }                                   //pbagmp
 }
