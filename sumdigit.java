@@ -1,6 +1,6 @@
 import java.util.Scanner;
 public class sumdigit {
-    public static void main(String args[]){
+    public static void main(String[] args){
         Scanner sc= new Scanner(System.in);
         int  sum = 0, rem;
         System.out.println("Enter a number: ");
