@@ -5,10 +5,10 @@ public class solat {
        Scanner sc = new Scanner(System.in);
         System.out.println("enter  string");
         String n = sc.nextLine();
-        String solat="s";
+        String salting ="s";
         String result ="";
         for( int i=0;i<n.length();i++){
-          result += n.charAt(i)+solat;
+          result += n.charAt(i)+salting;
         }
         System.out.println(result);
 
